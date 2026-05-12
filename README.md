@@ -1,4 +1,4 @@
-# 🤖 AI Resume Screener Agent
+# AI Resume Screener Agent
 ### Powered by Groq (LLaMA 3.3-70B) + n8n Workflow Automation
 
 ![Status](https://img.shields.io/badge/Status-Live-brightgreen)
@@ -8,7 +8,7 @@
 
 ---
 
-## 🎯 Problem Statement
+## Problem Statement
 
 Recruiters spend **6–8 seconds** screening one resume. Companies with 500+ applicants per job post waste hundreds of hours manually matching resumes to job descriptions.
 
@@ -16,19 +16,19 @@ Recruiters spend **6–8 seconds** screening one resume. Companies with 500+ app
 
 ---
 
-## ⚡ What It Does
+##  What It Does
 
 An intelligent AI agent that takes a **Resume** + **Job Description** as input and instantly returns:
 
-- ✅ **Match Score** (0–100) — how well the candidate fits
-- 🎯 **Matched Skills** — skills present in both resume and JD
-- ❌ **Missing Skills** — gaps the candidate needs to fill
-- 💪 **Strengths Summary** — 2-line AI-generated insight
-- 🏆 **Verdict** — Strongly Recommended / Recommended / Not Recommended
+-  **Match Score** (0–100) — how well the candidate fits
+-  **Matched Skills** — skills present in both resume and JD
+-  **Missing Skills** — gaps the candidate needs to fill
+-  **Strengths Summary** — 2-line AI-generated insight
+-  **Verdict** — Strongly Recommended / Recommended / Not Recommended
 
 ---
 
-## 🏗️ Architecture
+##  Architecture
 
 ```
 User Input (Chat)
@@ -67,7 +67,7 @@ User Input (Chat)
 
 ---
 
-## 📊 Sample Output
+##  Sample Output
 
 **Input:**
 ```
@@ -89,7 +89,7 @@ JOB DESCRIPTION: Python Developer with automation and IoT experience
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Component | Technology |
 |-----------|-----------|
@@ -101,7 +101,7 @@ JOB DESCRIPTION: Python Developer with automation and IoT experience
 
 ---
 
-## 🚀 How to Run This Locally
+##  How to Run This Locally
 
 ### Prerequisites
 - n8n account (cloud or self-hosted)
@@ -126,7 +126,7 @@ Click "Open Chat" → Paste Resume + JD → Get instant analysis!
 
 ---
 
-## 💬 How to Use
+##  How to Use
 
 Paste this format in the chat:
 
@@ -142,7 +142,7 @@ The agent returns a structured JSON with score, skills match, and hiring recomme
 
 ---
 
-## 🔮 Future Upgrades (Roadmap)
+##  Future Upgrades (Roadmap)
 
 - [ ] PDF resume upload support
 - [ ] Batch screening (multiple resumes at once)
@@ -151,25 +151,3 @@ The agent returns a structured JSON with score, skills match, and hiring recomme
 - [ ] Web dashboard with score visualization
 - [ ] ATS keyword optimization suggestions
 
----
-
-## 👩‍💻 About the Developer
-
-**Tripti Mishra**
-- 📚 B.Tech ECE, 6th Semester — RCOEM Nagpur
-- 🔗 GitHub: [@triptimishra09](https://github.com/triptimishra09)
-- 💡 Building AI automation projects with n8n, Python, and Groq
-
-### Other Projects
-- 🤣 [AI Joke Generator](https://github.com/triptimishra09) — n8n + AI
-- 📧 [Email Summarizer Agent](https://github.com/triptimishra09) — n8n + LLM
-
----
-
-## 📄 License
-
-MIT License — feel free to use and modify!
-
----
-
-*Built with ❤️ using n8n + Groq API*
